@@ -1,13 +1,23 @@
 # Reactive_Demo
 
-Reactive_Demo is a Spring Boot application that demonstrates CRUD operations using Reactive Programming with Spring WebFlux and MongoDB. The application manages a product catalog and exposes RESTful endpoints to perform CRUD operations on the products.
+### Welcome to Reactive_Demo: A Showcase of Reactive Programming with Spring WebFlux and MongoDB
+
+Reactive_Demo is a Spring Boot application that exemplifies the power and efficiency of Reactive Programming. Designed to manage a dynamic product catalog, this project leverages Spring WebFlux and MongoDB to deliver a high-performance, non-blocking solution for CRUD operations.
+
+#### Features:
+
+- **Reactive Programming**: Embrace the future with an event-driven, non-blocking architecture that ensures high throughput and scalability.
+- **Comprehensive CRUD Operations**: Perform Create, Read, Update, and Delete operations with ease, all exposed through well-designed RESTful endpoints.
+- **Spring WebFlux Integration**: Benefit from the advanced features of Spring WebFlux, providing a reactive and resilient web application experience.
+- **MongoDB Backend**: Utilize the power and flexibility of MongoDB for efficient data storage and retrieval, ensuring optimal performance for your product catalog.
+
+Reactive_Demo is your gateway to mastering modern development practices. Explore the capabilities of Reactive Programming and transform the way you build applications with this innovative and inspiring project.
 
 ## Table of Contents
 
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Running the Application](#running-the-application)
-- [Project Structure](#project-structure)
 - [Endpoints](#endpoints)
 - [Testing](#testing)
 - [Contributing](#contributing)
@@ -34,33 +44,6 @@ mvn clean install
 
 3. Run the application:
 mvn spring-boot:run
-
-## Project Structure
-src/
- ├── main/
- │   ├── java/com/richardvinz/Reactive_Demo/
- │   │   ├── controller/
- │   │   │   └── ProductController.java
- │   │   ├── dto/
- │   │   │   └── ProductDTO.java
- │   │   ├── exception/
- │   │   │   ├── ProductAlreadyExistException.java
- │   │   │   └── ProductNotFoundException.java
- │   │   ├── repository/
- │   │   │   └── ProductRepository.java
- │   │   ├── service/
- │   │   │   ├── ProductService.java
- │   │   │   └── impl/
- │   │   │       └── ProductServiceImpl.java
- │   │   └── util/
- │   │       └── AppUtils.java
- │   └── resources/
- │       └── application.properties
- └── test/
-     ├── java/com/richardvinz/Reactive_Demo/
-     │   └── ReactiveDemoApplicationTests.java
-     └── resources/
-
 
 ## Endpoints
 
